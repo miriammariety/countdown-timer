@@ -1,0 +1,36 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+body {
+  margin-top: 10%;
+}
+
+#timer-div p {
+  font-family: graphik-bold;
+  font-size: 800%;
+  font-weight: 400;
+  margin: 5% 0px;
+}
+
+#label-div p {
+  font-family: graphik-bold;
+  font-size: 100%;
+  margin: 1% 0px;
+}
+
+@font-face {
+  font-family: graphik-bold;
+  src: url(../fonts/Graphik-Bold.ttf);
+}
